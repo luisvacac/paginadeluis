@@ -1,0 +1,417 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  
+  
+  body {
+      background-color: rgb(12, 231, 158);
+  }
+  /* ESTILOS GENERALES */
+  
+  
+  .fuente-resaltar {color: #d81929;}
+  .fuente-clara {color: #eeeeee;}
+  .fuente-oscura {color: #22211f;}
+  .producto {
+      color: #180970;
+      background-color: hsl(237, 100%, 66%);
+      height: 300px;
+      width: 418.4px;
+      float:right;
+  }
+  
+  nav ul li {
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+  }
+  
+  nav ul li a {
+    color: #eeeeee;
+  }
+  /* ENCABEZADO */
+  
+  header {
+    background-color: rgba(16, 135, 233, 0.85);
+    width: 100%;
+  }
+  
+  .logo {
+    display: inline-block;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 50px;
+    font-weight: bold;
+  }
+  
+  header {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+  }
+  
+  header nav {
+    height: 80px;
+    float: right;
+  }
+  
+  nav ul.menu {
+    float: right;
+  }
+  
+  nav ul.menu li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  
+  nav ul.menu li a {
+    color: #eee;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 7px 7px;
+  }
+  
+  /* MENU */
+  
+  .checkbtn {
+    font-size: 25px;
+    color: rgb(186, 5, 5);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  
+  #check {
+  display: none;
+  
+  }
+  
+        /* Centro */
+  
+  
+  
+  main {
+      background-color: rgba(0, 140, 255, 0.434);
+      width: 100%;
+      color: rgb(11, 172, 65);
+      font-size: 20px;
+      position: relative;
+      top: 110px;
+    
+  
+      
+  }
+  .centro {
+      display:grid;
+  }
+  
+  .intro {
+      position:relative;
+      top: 0px;
+      left: 0px;
+  }
+  
+  div {
+      padding: 10px 5px 15px 3px;
+      border: 10px;
+      }
+  
+  .parrafo1 {
+      color: #1a3af2;
+      text-size-adjust: 100%;
+      text-justify:auto;
+      size-adjust: 20px;
+      /*padding: 20px;*/
+      font-weight: bold;
+      }
+  
+      img {
+          max-width: 100%;
+          max-height: 100%;
+      }
+  
+  
+      .destacados {
+  
+          display:inline-block;
+          justify-content:space-between;
+          flex-wrap: wrap;
+          position:relative;
+          top: 0px;
+          left: 0px;
+          
+      }
+          
+  
+  .imagen1 {
+      border-radius: 10px;
+      float: left;
+      height: 100px;
+      width: 100px;
+      padding: 2px;
+  }
+  .imagen_intro {
+
+      max-width: 400px;
+      max-height: 400px;
+  
+      
+      
+    
+  }
+  .box_intro {
+  
+      display: flex;
+      justify-content:center;
+      flex-wrap: wrap;
+      position:relative;
+  }
+  .lista_productos {
+  
+      display:inline-flex;
+      justify-content:space-around;
+      flex-wrap: wrap;
+      position:static;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+  }
+  
+
+ /* ------------- Encabezado Contacto ------------- */
+  
+ footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-header {
+  text-align: center;
+  background-color: rgba(242, 243, 243, 0.434);
+  border: 1px solid #d6d9dc;
+  border-radius: 3px;
+
+  width: 80%;
+  margin: 10px auto;
+  padding: 50px;
+}
+
+.form-header h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+/* ------------- Formulario ------------- */
+
+.formulario {
+  background-color: rgba(0, 140, 255, 0.434);
+  border: 1px solid #d6d9dc;
+  border-radius: 3px;
+
+  width: 80%;
+  padding: 50px;
+  margin: 30px 0 40px 0;
+}
+
+/* ------------- Campos del Formulario ------------- */
+
+.form-row {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"] {
+  background-color: #bdbdbd;
+  border: 0;
+  border-radius: 6px;
+  width: 100%;
+  padding: 7px;
+  font-size: 14px;
+}
+
+.form-row label {
+  margin-bottom: 3px;
+  text-align: initial;
+}
+
+.form-row textarea {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 14px;
+
+
+  background-color: #bdbdbd;
+  border: 0;
+  border-radius: 6px;
+
+
+  min-height: 200px;
+  margin-bottom: 10px;
+  padding: 7px;
+  resize: none;
+
+
+  width: 100%;
+}
+  
+  
+  
+  
+  /* Pie de página */
+  footer {
+      background-color: darkgrey;
+      width: 100%;
+      clear: both;
+      position: relative;
+      top: 110px;
+  }
+  
+  
+  
+/* MEDIA QUERIES */
+
+/* Estilos para pantallas más pequeñas (hasta 768px) */
+@media (max-width: 768px) {
+    /* Aquí puedes escribir los estilos que se aplicarán en pantallas más pequeñas */
+    header {
+      background-color: rgb(26, 232, 208);
+    }
+  
+    .checkbtn {
+      display: block;
+    }
+  
+    .navbar {
+      height: 0vh;
+      position: absolute;
+      top: 80px;
+      left: 0;
+      width: 100%;
+      background: #006cd8;
+      text-align: center;
+  
+      transition: all 0.5s;
+      overflow: hidden;
+    }
+  
+    .navbar ul.menu {
+      float: none;
+      display: block;
+      width: 174px;
+      margin: 0 auto;
+      opacity: 0;
+    }
+  
+    .navbar ul.menu li a:hover {
+      color: #31b40d;
+    }
+    /* ACTIVE */
+    .navbar.active {
+      height: 100vh;
+    }
+  
+    .navbar.active ul.menu {
+      opacity: 1;
+    }
+  }
+
+
+  /* ------------- Para Pantallas de más de 700px para el Formulario ------------- */
+  
+  
+  .form-row textarea {
+    width: 250px;
+  }
+.form-row button {
+font-size: 16px;
+font-weight: bold;
+
+
+color: #ffffff;
+background-color: #5995da;
+
+
+border: none;
+border-radius: 3px;
+
+
+padding: 10px 40px;
+cursor: pointer;
+}
+
+
+.form-row button:hover {
+background-color: #76aeed;
+}
+
+
+.form-row button:active {
+background-color: #407fc7;
+}
+
+.form-row button {
+  font-size: 16px;
+  font-weight: bold;
+
+
+  color: #ffffff;
+  background-color: #5995da;
+
+
+  border: none;
+  border-radius: 3px;
+
+
+  padding: 10px 40px;
+  cursor: pointer;
+}
+
+
+.form-row button:hover {
+  background-color: #76aeed;
+}
+
+
+.form-row button:active {
+  background-color: #407fc7;
+}
+
+  /* ------------- Para Pantallas de más de 700px ------------- */
+@media only screen and (min-width: 700px) {
+  .form-header {
+    padding: 50px;
+  }
+
+  .form-row {
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  .form-row input[type="text"],
+  .form-row input[type="email"] {
+    width: 250px;
+    height: initial;
+  }
+  .form-row label {
+    text-align: right;
+    width: 120px;
+    margin-top: 7px;
+    padding-right: 20px;
+  }
+  
+  .form-row button {
+    margin-left: 120px;
+  }
+}
+
